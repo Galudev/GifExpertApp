@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { AddCategory, GifGrid } from "./components";
 
-export const GifExpertApp = () => {
+const GifExpertApp = () => {
 
     const [categories, setCategories] = useState(['One Punch']);
 
@@ -37,3 +37,5 @@ export const GifExpertApp = () => {
         </>
     )
 }
+
+export default GifExpertApp;
